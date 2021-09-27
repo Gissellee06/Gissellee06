@@ -1,0 +1,52 @@
+{
+    "Character ":[
+        { "id":"0",
+            "name":"Homero",
+            "lastname":"Simpson",
+            "age" :40 ,
+            "esposa": "Marge",
+            "Hijo mayor": "Bart",
+            "images":"https://www.pngkit.com/bigpic/u2w7w7a9a9w7w7i1/"
+        },{
+            "id":"1",
+            "name":"Lisa",
+            "lastname":"Simpson",
+            "age" :8 ,
+            "Hobbie": "Saxofon",
+            "hermana menor": "Magguie",
+            "images":"https://img.fireden.net/co/image/1560/98/1560981995075.jpg"
+        },{
+            "id":"2",
+            "name":"Marge",
+            "lastname":"Bubbie",
+            "age" :38 ,
+            "ocupacion": "Ama de Casa",
+            "esposo": "Homero",
+            "images":"https://www.neo2.com/wp-content/uploads/2019/12/dia-de-marge-simpson-17-diciembre-neo2-1.jpg"
+        },{
+            "id":"3",
+            "name":"Bart",
+            "lastname":"Simpson",
+            "age" :10 ,
+            "habilidad": "bromista",
+            "mejor amigo": "Millhouse",
+            "images":"http://img3.wikia.nocookie.net/__cb20140511110240/simpsons/images/7/7c/Bart_Simpson_Season_25_Official.jpg"
+        },{
+            "id":"4",
+            "name":"Abraham",
+            "lastname":"Simpson",
+            "age" :80 ,
+            "residencia": "Asilo",
+            "estado": "viudo",
+            "images":"https://sites.google.com/site/lossimpsonsfamilyandperson/_/rsrc/1429118512681/el-abuelo-simpson/descarga.jpg"
+        },{
+            "id":"5",
+            "name":"Magguie",
+            "lastname":"Simpson",
+            "age" :1 ,
+            "jueguete": "chupete",
+            "Habilidad": "gatear",
+            "images":"https://superheroinas.review/wp-content/uploads/2020/02/6665941-maggie.png"
+        }
+    ]
+}
