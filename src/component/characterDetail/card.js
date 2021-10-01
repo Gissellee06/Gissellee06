@@ -1,5 +1,5 @@
 import React from "react";
-import "./card.css";
+import "./card.css"; 
 
 export default function Character (props){
     return(
