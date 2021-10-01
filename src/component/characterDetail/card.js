@@ -1,10 +1,16 @@
 import React from "react";
 import "./card.css";
 
-export default class Card extends React.Component{
-    constructor(props){
-        super();
-    }
+export default function Character (props){
+    return(
+        <div>
+            <img src={props.image} alt="image" />
+            <h3>{props.name}</h3>
+        </div>
+    )
+}
+ 
+/*}
 
     render(){
         return(
@@ -17,4 +23,4 @@ export default class Card extends React.Component{
         );
 
     }
-}
+}*/

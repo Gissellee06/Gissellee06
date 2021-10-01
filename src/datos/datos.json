@@ -1,52 +1,93 @@
 {
     "Character ":[
+
         { "id":"0",
             "name":"Homero",
             "lastname":"Simpson",
             "age" :40 ,
-            "esposa": "Marge",
+            "city": "Sprinfield",
             "Hijo mayor": "Bart",
-            "images":"https://www.pngkit.com/bigpic/u2w7w7a9a9w7w7i1/"
+            "image":"https://www.pngkit.com/bigpic/u2w7w7a9a9w7w7i1/"
         },{
             "id":"1",
             "name":"Lisa",
             "lastname":"Simpson",
             "age" :8 ,
             "Hobbie": "Saxofon",
-            "hermana menor": "Magguie",
-            "images":"https://img.fireden.net/co/image/1560/98/1560981995075.jpg"
+            "city": "Sprinfield",
+            "image":"https://img.fireden.net/co/image/1560/98/1560981995075.jpg"
         },{
             "id":"2",
             "name":"Marge",
             "lastname":"Bubbie",
             "age" :38 ,
             "ocupacion": "Ama de Casa",
-            "esposo": "Homero",
-            "images":"https://www.neo2.com/wp-content/uploads/2019/12/dia-de-marge-simpson-17-diciembre-neo2-1.jpg"
+            "city": "Springfield",
+            "image":"https://www.neo2.com/wp-content/uploads/2019/12/dia-de-marge-simpson-17-diciembre-neo2-1.jpg"
         },{
             "id":"3",
             "name":"Bart",
             "lastname":"Simpson",
             "age" :10 ,
             "habilidad": "bromista",
-            "mejor amigo": "Millhouse",
-            "images":"http://img3.wikia.nocookie.net/__cb20140511110240/simpsons/images/7/7c/Bart_Simpson_Season_25_Official.jpg"
+            "city": "Springfield",
+            "image":"http://img3.wikia.nocookie.net/__cb20140511110240/simpsons/images/7/7c/Bart_Simpson_Season_25_Official.jpg"
         },{
             "id":"4",
             "name":"Abraham",
             "lastname":"Simpson",
             "age" :80 ,
             "residencia": "Asilo",
-            "estado": "viudo",
-            "images":"https://sites.google.com/site/lossimpsonsfamilyandperson/_/rsrc/1429118512681/el-abuelo-simpson/descarga.jpg"
+            "city": "Springfield",
+            "image":"https://sites.google.com/site/lossimpsonsfamilyandperson/_/rsrc/1429118512681/el-abuelo-simpson/descarga.jpg"
         },{
             "id":"5",
             "name":"Magguie",
             "lastname":"Simpson",
             "age" :1 ,
             "jueguete": "chupete",
-            "Habilidad": "gatear",
-            "images":"https://superheroinas.review/wp-content/uploads/2020/02/6665941-maggie.png"
-        }
+            "city": "Springfield",
+            "image":"https://superheroinas.review/wp-content/uploads/2020/02/6665941-maggie.png"
+        },{
+            
+                "id":"6",
+                "name":"Ned",
+                "lastname":"Flanders",
+                "age" :50 ,
+                "tabajo": "tieda para zurdos",
+                "city": "Springfield",
+                "image":"https://www.pngkit.com/png/detail/41-416703_the-simpsons-ned-flanders-ned-flanders.png"
+            
+        },{
+            
+            "id":"7",
+            "name":"Jefe",
+            "lastname":"Gorgory",
+            "age" :39 ,
+            "tabajo": "policia",
+            "city": "Springfield",
+            "image":"https://live.staticflickr.com/4104/5018683981_058834f162_b.jpg"
+        
+    },{
+            
+        "id":"8",
+        "name":"Apu",
+        "lastname":"Nahasapemapetilon",
+        "age" :40 ,
+        "tabajo": "minimarket",
+        "city": "",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEDPSf01fWhQ3eQL0SVoF6LtdZGwy-lRf3Og&usqp=CAU"
+    
+    },{
+            
+        "id":"9",
+        "name":"Milhouse",
+        "lastname":"Van Houten",
+        "age" :10 ,
+        "tabajo": "minimarket",
+        "Habilidad": "",
+        "image":"https://i.pinimg.com/originals/2f/bc/af/2fbcafd73602df52aca0be2f59a26c5c.png"
+    
+}
     ]
 }

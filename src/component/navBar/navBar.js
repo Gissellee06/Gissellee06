@@ -1,23 +1,29 @@
 import React from "react";
 import "./navBar.css";
+import { Link} from "react-router-dom";
 
-export default class NavBar extends React.Component{
+ class NavBar extends React.Component{
+    constructor(props){
+        super(props);
+        this.state = {};
+    }
     render(){
         return (
-            <header className="header">
+            
                 <nav className= "nav">
-                    <div> LOS SIMPSONS</div>
-                    <ul className="links">
-                        <li>
-                            <a href="javascript: void(0)">Character</a>
-                        </li>
-                        <li>
-                            <a href="javascript: void(0)">About</a>
-                        </li>
-
-                    </ul>
+                   <h1>   
+                       <navLink exact to="/" activeClassName="activo"> Mi personaje favorito</navLink>
+                   </h1>
+                   <p>   
+                       <navLink exact to="/characterDetail" activeClassName="activo"> CHARACTER DETAIL</navLink>
+                   </p>
+                   <p>   
+                       <navLink exact to="/about" activeClassName="activo"> ACERCA </navLink>
+                   </p>
                 </nav>
-            </header>
+          
         );
     }
 }
+
+export default NavBar;
