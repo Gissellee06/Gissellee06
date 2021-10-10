@@ -8,14 +8,14 @@ import "./home.css";
 import {Link} from "react-router-dom";
 
 
- class Home extends React.Component{
+export default class Home extends React.Component{
     constructor(props){
         super(props);
         this.state = {};
     }
     render(){
         return(
-            <div>
+            <div className="home">
                 {this.props.characterInfo.map((character, index) => {
                     return(
                         <Link key={index} to={'/charDetail/${character.id}'}>

@@ -7,8 +7,12 @@ import Home from "./component/home/home";
 import About from "./component/about/about";
 import CharacterDetail from "./component/characterDetail/characterDetail";
 import Personaje from "./datos/datos.json";
+import Character from "./datos/datos.json";
+import {Switch, Route} from "react-router-dom";
 
-export default function App(){
+
+
+ function App(){
   const[characterInfo, setCharacterInfo]= useState([]);
   useEffect(()=> {
     setCharacterInfo(Personaje.CharacterDetail);
@@ -52,7 +56,7 @@ export default function App(){
       <About/>
     </div>
   );
-}
+}*/
 
-export default  App; */
+export default  App; 
  

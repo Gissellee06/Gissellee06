@@ -6,3 +6,14 @@
     color: #ffffff;
     display: flex;
   }
+  .containerAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .error {
+    color: red;
+    box-shadow: none;
+  }

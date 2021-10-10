@@ -34,5 +34,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Config files for my GitHub profile.\r Mi primer proyecto",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gissellee06/Gissellee06.git"
+  },
+  "keywords": [
+    "Amorypaz15"
+  ],
+  "author": "Gisela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gissellee06/Gissellee06/issues"
+  },
+  "homepage": "https://github.com/Gissellee06/Gissellee06#readme"
 }

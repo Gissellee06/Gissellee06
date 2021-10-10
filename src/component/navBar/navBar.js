@@ -2,26 +2,29 @@ import React from "react";
 import "./navBar.css";
 import { Link} from "react-router-dom";
 
- class NavBar extends React.Component{
-    constructor(props){
+ export default class NavBar extends React.Component{
+  /*  constructor(props){
         super(props);
         this.state = {};
-    }
+    }*/
     render(){
         return (
-            
+            <header className="header">
                 <nav className= "nav">
-                   <h1>   
-                       <navLink exact to="/" activeClassName="activo"> Mi personaje favorito</navLink>
-                   </h1>
-                   <p>   
-                       <navLink exact to="/characterDetail" activeClassName="activo"> CHARACTER DETAIL</navLink>
-                   </p>
-                   <p>   
-                       <navLink exact to="/about" activeClassName="activo"> ACERCA </navLink>
-                   </p>
+                    <div>
+                   <navLink className="Link" exact to="/"> Mi personaje favorito
+                   </navLink> 
+                   </div>
+                   <ul className="ul">
+                     <li>   
+                       <navLink className="link" exact to="/characterDetail" > </navLink>
+                     </li>
+                   <li>   
+                       <navLink to="/about" exact className="link" > ACERCA </navLink>
+                   </li>
+                   </ul>
                 </nav>
-          
+                </header>
         );
     }
 }
