@@ -1,25 +1,23 @@
-
 import './App.css';
-import React, {useState, useEffect} from 'react';
-import {Switch, Route} from "react-router-dom";
+import {useState, useEffect} from 'react';
+import {Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import NavBar from "./component/navBar/navBar";
 import Home from "./component/home/home";
 import About from "./component/about/about";
 import CharacterDetail from "./component/characterDetail/characterDetail";
 import Personaje from "./datos/datos.json";
-import Character from "./datos/datos.json";
-import {Switch, Route} from "react-router-dom";
+import Formulario from './component/formulario/formulario';
 
 
-
- function App(){
+ export default function App(){
   const[characterInfo, setCharacterInfo]= useState([]);
   useEffect(()=> {
     setCharacterInfo(Personaje.CharacterDetail);
   },[]);
 
   return(
-    <>
+    <div className="App">
+      <Router>
     <NavBar />
     <Switch>
       <Route exact path="/">
@@ -34,15 +32,16 @@ import {Switch, Route} from "react-router-dom";
         <CharacterDetail characterInfo={characterInfo} />
       </Route>
 
-      <Route path="/about">
+      <Route exact path="/about">
         <About />
-      </Route>
+      </Route> 
 
       <Route>
           <h1> ERROR 404 NOT FOUND </h1>
       </Route>
     </Switch>
-    </>
+    </Router>
+    </div>
   );
   
 }
@@ -56,7 +55,7 @@ import {Switch, Route} from "react-router-dom";
       <About/>
     </div>
   );
-}*/
+}
 
 export default  App; 
- 
+ */

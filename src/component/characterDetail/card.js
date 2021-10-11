@@ -7,7 +7,7 @@ export default function Character (props){
             <img src={props.image} alt="image" />
             <h3>{props.name}</h3>
         </div>
-    )
+    ) 
 }
  
 /*}

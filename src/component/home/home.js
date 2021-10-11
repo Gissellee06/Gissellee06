@@ -2,10 +2,9 @@ import React from "react";
 import datos from "../../datos/datos.json"
 import Card from "../characterDetail/card";
 import CharacterDetail from "../characterDetail/characterDetail";
-import Character from "../character/character";
-import Character from "../characterDetail/card"; 
 import "./home.css";
-import {Link} from "react-router-dom";
+import {Link} from "react-router-dom"; 
+
 
 
 export default class Home extends React.Component{
@@ -13,6 +12,7 @@ export default class Home extends React.Component{
         super(props);
         this.state = {};
     }
+    
     render(){
         return(
             <div className="home">
@@ -29,4 +29,3 @@ export default class Home extends React.Component{
         );
     }
 }
-export default Home;
